@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  color: #fff;
+  background-color: #0b5ed7;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+.text {
+  padding: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  display: none;
+}
+.text.text-active {
+  display: block;
+  animation: myAnim 1s ease 0ms 1 normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(1rem);
+  }
+}
